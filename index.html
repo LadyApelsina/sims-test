@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buildning Generator</title>
+    <link rel="stylesheet" href="gen-global.css">
+    <link rel="stylesheet" href="building.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/b406845b25.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<header>
+    <div class="top-nav">
+      <img src="logo101.png" alt="">
+        <h1>Sims 4 Generator</h1>
+        <video loop autoplay muted class="video-wrapper">
+          <source src="sims-text-back.mp4">
+        </video>
+    </div>
+    <nav>
+       <a href="index.html" class="menu-btn" id="left-btn">Building</a>
+       <a href="creation.html" class="menu-btn">Sim Creation</a>
+       <a href="challenges.html" class="menu-btn">Playing Challenges</a>
+       <a href="portfolio.html" class="menu-btn" id="right-btn">Porfolio</a>
+    </nav>
+</header>
+
+<main>
+  <div class="info-container">
+  <h2>Building Challenges</h2>
+    <p>Select which Catecories you want to generate with the checkboxes and Randomize away!</p>
+      <br>
+        <p><b>Remember!</b></p>
+          <p>If you're not happy with your result, it's not written in stone! Pick what you liked or try again! Good Luck!</p>
+  </div>
+  <section>
+         <button class="filterBtn">Filter</button>
+     <div class="build-box" id="world">
+       <div class="head-box">
+         <h3>World</h3>
+         <input type="checkbox" name="checkbox">
+       </div>
+         <p>Get ONE World to start building in!</p>
+     </div>
+     <div class="build-box" id="type">
+        <div class="head-box">
+          <h3>Lot Type</h3>
+          <input type="checkbox" name="checkbox">
+        </div>
+          <p>Get ONE Lot Type to build with.</p>
+     </div>
+     <div class="build-box" id="size">
+        <div class="head-box">
+          <h3>Lot Size</h3>
+          <input type="checkbox" name="checkbox">
+        </div>
+          <p>Get ONE Lot Size to build with.</p>
+     </div>
+     <div class="build-box" id="packs">
+       <h3>Packs</h3>
+         <p>Choose from different packs and kits. You can choose between 1-10 alternatives per category.</p>
+       <form>
+         <div class="head-box" id="packs-box">
+           <h4>Expansion Packs</h4>
+           <input type="checkbox" name="checkbox">
+         </div>
+           <label for="amount">Choose amount</label>
+             <select name="amount">
+               <option value="1">1</option>
+               <option value="2">2</option>
+               <option value="3">3</option>
+               <option value="4">4</option>
+               <option value="5">5</option>
+               <option value="6">6</option>
+               <option value="7">7</option>
+               <option value="8">8</option>
+               <option value="9">9</option>
+               <option value="10">10</option>
+             </select>
+        <div class="head-box" id="packs-box">
+          <h4>Kits</h4>
+          <input type="checkbox" name="checkbox">
+        </div>
+           <label for="amount">Choose amount</label>
+              <select name="amount">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+              </select>
+        <div class="head-box" id="packs-box">
+          <h4>Game Packs</h4>
+          <input type="checkbox" name="checkbox">
+        </div>
+           <label for="amount">Choose amount</label>
+             <select name="amount">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+              </select>
+        <div class="head-box" id="packs-box">
+          <h4>Stuff Packs</h4>
+          <input type="checkbox" name="checkbox">
+        </div>
+           <label for="amount">Choose amount</label>
+             <select name="amount">
+               <option value="1">1</option>
+               <option value="2">2</option>
+               <option value="3">3</option>
+               <option value="4">4</option>
+               <option value="5">5</option>
+               <option value="6">6</option>
+               <option value="7">7</option>
+               <option value="8">8</option>
+               <option value="9">9</option>
+               <option value="10">10</option>
+             </select>
+               <br>
+                  <input type="reset" value="Reset" id="packs-reset">
+            </form>
+     </div>
+     <div class="build-box" id="business">
+       <div class="head-box">
+         <h3>Business</h3>
+         <input type="checkbox" name="checkbox">
+       </div>
+         <p>Pick ONE Business to work with..</p>
+     </div>
+     <div class="build-box" id="s-business">
+       <div class="head-box">
+         <h3>Small Business</h3>
+         <input type="checkbox" name="checkbox">
+       </div>
+           <p>Get ONE category, each have 1-5 alternatives that matches the Randomized category you've been given..</p>
+         <label for="amount">Choose amount</label>
+           <select name="amount">
+             <option value="1">1</option>
+             <option value="2">2</option>
+             <option value="3">3</option>
+             <option value="4">4</option>
+             <option value="5">5</option>
+           </select>
+     </div>
+     <div class="build-box" id="colors">
+       <div class="head-box">
+         <h3>Colors</h3>
+         <input type="checkbox" name="checkbox">
+       </div>
+           <p>Get ONE category, each have 1-5 alternatives that matches the Randomized category you've been given..</p>
+         <label for="amount">Choose amount</label>
+           <select name="amount" id="amount">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+           </select>
+     </div>
+     <div class="build-box" id="decor">
+       <div class="head-box">
+         <h3>Decor Styles</h3>
+         <input type="checkbox" name="checkbox">
+       </div>
+           <p>Get ONE category, each have 1-7 alternatives that matches the Randomized category you've been given..</p>
+         <label for="amount">Choose amount</label>
+           <select name="amount" id="amount">
+             <option value="1">1</option>
+             <option value="2">2</option>
+             <option value="3">3</option>
+             <option value="4">4</option>
+             <option value="5">5</option>
+             <option value="6">6</option>
+             <option value="7">7</option>
+          </select>
+     </div>
+  </section>
+
+
+  <section>
+    <h2>Extra Challenges</h2>
+      <div class="build-box" id="budget">
+          <div class="head-box">
+            <h3>Budget</h3>
+            <input type="checkbox" name="checkbox">
+          </div>
+            <p>Building isn't hard! But with a Budget Limit? Yes it is! BE BRAVE AND TRY!</p>
+      </div>
+      <div class="build-box" id="must">
+          <div class="head-box">
+            <h3>"Must Have"</h3>
+            <input type="checkbox">
+          </div>
+            <p>Things you MUSt HAVE in your project!</p>
+          <label for="amount">Choose amount</label>
+            <select name="amount" id="amount">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+           </select>
+      </div>
+      <div class="build-box" id="limits">
+          <div class="head-box">
+            <h3>Limits / "Do not"</h3>
+            <input type="checkbox">
+          </div>
+            <p>Things you are NOT allowed to have in your project or limits while building!</p>
+          <label for="amount">Choose amount</label>
+            <select name="amount" id="amount">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+           </select>
+      </div>
+      <div class="build-box" id="time">
+          <div class="head-box">
+            <h3>Time limit</h3>
+            <input type="checkbox">
+          </div>
+            <p>Want Extra Spice? Add a Time Limit when your project must be done!</p>
+      </div>
+      <div class="build-box" id="extra">
+          <div class="head-box">
+            <h3>Extra Extra</h3>
+            <input type="checkbox">
+          </div>
+            <p>Out of the Box ideas! Never know what you might get!</p>
+              <label for="amount">Choose amount</label>
+                <select name="amount" id="amount">
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                </select>
+      </div>
+    <input type="submit" value="Submit Challenge" class="submit-con" id="submit-box">
+    <input type="reset" value="Reset" class="submit-con" id="reset-box">
+  </section>
+
+
+  <div id="result-box">
+    <h3>Your Result</h3>
+      <pre id="final-result"></pre>
+        <button id="copy-btn" title="Copy result">
+            <i class="fa-solid fa-copy"></i>
+        </button>
+  </div>
+</main>
+
+
+<footer>
+    <a href="#top" class="b-top">Back to Top</a>
+
+
+  <div class="foot-con">
+     <div class="foot1">
+       <img src="logo-text101.png" alt="logo" class="foot1-img">
+     </div>
+     <div class="foot2">
+
+
+     </div>
+  </div>
+    <!--
+    <div class="foot-1">
+        <p>Links</p>
+           <a href="#">Cheats</a>
+           <a href="#">Mods</a>
+           <a href="#">Expansions</a>
+    </div>
+    <div class="foot-2">
+        <img src="logo1.png" alt="logo">
+    </div>
+    -->
+</footer>
+   
+<script src="buildning.js"></script>
+</body>
+</html>
